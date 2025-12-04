@@ -34,7 +34,6 @@ def choose_promotion(screen, color):
             elif e.type == p.QUIT:
                 p.quit()
                 exit()
-
 def draw_text(screen, text, font):
     text_object = font.render(text, True, p.Color('red'))
     screen.blit(text_object, (WIDTH//2 - text_object.get_width()//2, HEIGHT//2 - text_object.get_height()//2))
