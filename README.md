@@ -5,7 +5,7 @@ Người chơi có thể đấu với máy hoặc thiết lập để chơi 2 ng
 
 ---
 
-## 🎯 Tính năng chính
+##  Tính năng chính
 
 - *Chơi cờ vua đầy đủ luật*:
   - Di chuyển hợp lệ cho tất cả quân: Vua, Hậu, Xe, Tượng, Mã, Tốt.
@@ -23,7 +23,7 @@ Người chơi có thể đấu với máy hoặc thiết lập để chơi 2 ng
 
 ---
 
-## 🧱 Kiến trúc dự án
+##  Kiến trúc dự án
 
 Dự án được tách thành ba mô-đun chính:
 
@@ -82,7 +82,7 @@ Dự án được tách thành ba mô-đun chính:
 
 ---
 
-## 📁 Cấu trúc thư mục gợi ý
+##  Cấu trúc thư mục gợi ý
 
 Bạn có thể tổ chức repo như sau để dễ quản lý:
 
@@ -92,8 +92,7 @@ AI-Chess/
 ├─ chess_final.py           # Entry point – chạy file này để chơi
 ├─ chess_engine_final.py    # Logic luật cờ
 ├─ AI_chess_final.py        # AI (Negamax + Alpha–Beta)
-└─ assets/
-   └─ images/
+└─  images/
       ├─ wP.png
       ├─ wR.png
       ├─ ...
